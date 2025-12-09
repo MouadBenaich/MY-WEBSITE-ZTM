@@ -4,38 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ZTM Learning Journey</title>
-  <link rel="stylesheet" href="css/style.css">
+  <!-- ✅ Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- ✅ Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<!-- Theme Toggle -->
 <button id="theme-toggle">🌙</button>
 <button id="backToTop">↑</button>
-
+<!-- Hamburger Menu -->
 <div class="hamburger" id="hamburger">
   <span></span>
   <span></span>
   <span></span>
 </div>
-
-<header class="reveal">
-  <h1>ZTM Learning Journey — The Complete Web Developer</h1>
+<!-- HEADER -->
+<header class="reveal text-center py-5">
+  <h1 class="fw-bold">ZTM Learning Journey — The Complete Web Developer</h1>
   <p class="subtitle">A living journal documenting my progress through ZTM’s Complete Web Developer course.</p>
-  <nav>
+  <nav class="mt-3">
     <a href="index.html">Home</a>
     <a href="exercises.html">Exercises</a>
     <a href="contact.html">Contact</a>
     <a href="projects.html">Projects</a>
   </nav>
 </header>
-
-<main class="modules-grid">
-
+<!-- MAIN CONTENT -->
+<main class="modules-grid container">
+  <!-- Course Progress -->
   <section class="module-card reveal">
     <h2><span class="icon float">📚</span> Course Progress</h2>
-    <p><strong>Current completion:</strong> ~17%</p>
+    <p><strong>Current completion:</strong> ~23%</p>
   </section>
-
+  <!-- Completed Modules -->
   <section class="module-card reveal">
     <h2><span class="icon pulse">✅</span> Completed Modules</h2>
     <ul>
@@ -55,7 +59,7 @@
       <li>Let’s Have Some Fun (+ free resources)</li>
     </ul>
   </section>
-
+  <!-- December 4 -->
   <section class="module-card reveal">
     <h2><span class="icon glow">🌙</span> Night Updates — December 4, 2025</h2>
     <ul>
@@ -68,7 +72,7 @@
       <li>Optional: More about the history of the web</li>
     </ul>
   </section>
-
+  <!-- Unlimited Updates -->
   <section class="module-card reveal">
     <h2><span class="icon spin">🔁</span> Unlimited Updates</h2>
     <ul>
@@ -79,7 +83,7 @@
       <li>Don’t Be a Junior (3m 32s)</li>
     </ul>
   </section>
-
+  <!-- December 5 -->
   <section class="module-card reveal">
     <h2><span class="icon float">📅</span> December 5, 2025</h2>
     <ul>
@@ -93,7 +97,7 @@
       <li>HTML Tags 2 (1m 50s)</li>
     </ul>
   </section>
-
+  <!-- December 6 -->
   <section class="module-card reveal">
     <h2><span class="icon float">📅</span> December 6, 2025</h2>
     <ul>
@@ -109,7 +113,7 @@
       <li>Submitting a Form (8m 18s)</li>
     </ul>
   </section>
-
+  <!-- December 7 -->
   <section class="module-card reveal">
     <h2><span class="icon float">📅</span> December 7, 2025</h2>
     <ul>
@@ -129,7 +133,29 @@
       <li>CSS3 (8m 14s)</li>
     </ul>
   </section>
-
+  <!-- December 8 -->
+  <section class="module-card reveal">
+    <h2><span class="icon float">📅</span> December 8, 2025</h2>
+    <ul>
+      <li>Bootstrap, Templates & Startup Landing Page (1h 46m)</li>
+      <li>Bootstrap Grid</li>
+      <li>Fast & Furious Bootstrap Challenge</li>
+      <li>Mailchimp Integration</li>
+      <li>Landing Page Build (Parts 1–5)</li>
+    </ul>
+  </section>
+  <!-- December 9 -->
+  <section class="module-card reveal">
+    <h2><span class="icon float">📅</span> December 9, 2025</h2>
+    <ul>
+      <li>Putting Your Website Online</li>
+      <li>Developer Fundamentals IV</li>
+      <li>Using Templates</li>
+      <li>Free Template Resources</li>
+      <li>Using A.I. Tools for Portfolio</li>
+    </ul>
+  </section>
+  <!-- Learning Routine -->
   <section class="module-card reveal">
     <h2><span class="icon pulse">🧠</span> Learning Routine</h2>
     <ul>
@@ -138,16 +164,16 @@
       <li>Anchor time: 22:00 (Morocco)</li>
     </ul>
   </section>
-
+  <!-- Repo Structure -->
   <section class="module-card reveal">
     <h2><span class="icon glow">🗂</span> Repository Structure</h2>
     <ul>
       <li>Exercises → breaking-google/, traceroute/</li>
       <li>Notes → how-the-internet-works.md</li>
-      <li>Progress Logs → December 4–7, 2025</li>
+      <li>Progress Logs → December 4–9, 2025</li>
     </ul>
   </section>
-
+  <!-- Next Up -->
   <section class="module-card reveal">
     <h2><span class="icon spin">🔜</span> Next Up</h2>
     <ul>
@@ -155,9 +181,10 @@
       <li>Git & GitHub basics</li>
       <li>JavaScript fundamentals</li>
       <li>Build and deploy a simple static page</li>
+      <li>Build a full website using Bootstrap</li>
     </ul>
   </section>
-
+  <!-- Tracking -->
   <section class="module-card reveal">
     <h2><span class="icon pulse">📝</span> How I Track Progress</h2>
     <p>Each study session gets a dated log in <code>/progress</code> containing:</p>
@@ -168,13 +195,14 @@
       <li>Questions or blockers</li>
     </ul>
   </section>
-
 </main>
-
-<footer class="reveal">
+<footer class="reveal text-center py-4">
   <p>© Mouad Benaich</p>
 </footer>
-
+<!-- JS -->
 <script src="js/main.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

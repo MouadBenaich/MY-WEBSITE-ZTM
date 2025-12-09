@@ -1,20 +1,90 @@
-<head><link rel="stylesheet" href="css/style.css"></head>
-<main>
-  <section>
-    <h2>Introduction</h2>
-    <ul>
-      <li>The Complete Web Developer: Zero to Mastery (5:04)</li>
-      <li>Course Outline (8:38)</li>
-      <li>Exercise: Meet Your Classmates and Instructor</li>
-    </ul>
-  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modules – ZTM Learning Journey</title>
 
-  <section>
-    <h2>How The Internet Works</h2>
-    <ul>
-      <li>Browsing the Web (6:00)</li>
-      <li>Breaking Google (2:59)</li>
-      <li>Exercise: Break Google Yourself</li>
-    </ul>
-  </section>
+  <!-- ✅ Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ✅ Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ✅ Back to Top -->
+<button id="backToTop">↑</button>
+
+<!-- ✅ Hamburger Menu -->
+<div class="hamburger" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- ✅ HEADER -->
+<header class="reveal">
+  <h1>ZTM Modules Overview</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="modules.html">Modules</a>
+    <a href="exercises.html">Exercises</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button id="theme-toggle">🌙</button>
+</header>
+
+<!-- ✅ MAIN CONTENT -->
+<main class="container py-5">
+
+  <h2 class="text-center mb-5 reveal">Course Modules</h2>
+
+  <div class="row g-4">
+
+    <!-- ✅ Introduction -->
+    <div class="col-md-6 reveal">
+      <section class="module-card">
+        <h2><span class="icon float">📘</span> Introduction</h2>
+        <ul>
+          <li>The Complete Web Developer: Zero to Mastery (5:04)</li>
+          <li>Course Outline (8:38)</li>
+          <li>Exercise: Meet Your Classmates and Instructor</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- ✅ How The Internet Works -->
+    <div class="col-md-6 reveal">
+      <section class="module-card">
+        <h2><span class="icon pulse">🌐</span> How The Internet Works</h2>
+        <ul>
+          <li>Browsing the Web (6:00)</li>
+          <li>Breaking Google (2:59)</li>
+          <li>Exercise: Break Google Yourself</li>
+        </ul>
+      </section>
+    </div>
+
+  </div>
+
 </main>
+
+<!-- ✅ FOOTER -->
+<footer class="reveal text-center py-4">
+  <p>© Mouad Benaich</p>
+</footer>
+
+<!-- ✅ JS -->
+<script src="js/main.js"></script>
+
+<!-- ✅ Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
