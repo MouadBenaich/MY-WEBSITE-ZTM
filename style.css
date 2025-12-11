@@ -498,9 +498,7 @@ footer {
   opacity: 0;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   nav {
