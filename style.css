@@ -494,7 +494,8 @@ footer {
   margin-top: 3rem;
   letter-spacing: 0.5px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  animation: fadeIn 1s ease;
+  animation: fadeIn 4s ease forwards; 
+  opacity: 0;
 }
 
 /* =========================
