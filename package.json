@@ -1,0 +1,26 @@
+{
+  "name": "my-website-ztm",
+  "version": "1.0.0",
+  "description": "A refined, responsive, and visually elegant multi‑page website documenting my progress through the **Zero To Mastery Web Developer course**.  \r Built with clean HTML, modern CSS, and lightweight JavaScript, this project focuses on clarity, smooth interactions, and a polished user experience.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MouadBenaich/MY-WEBSITE-ZTM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MouadBenaich/MY-WEBSITE-ZTM/issues"
+  },
+  "homepage": "https://github.com/MouadBenaich/MY-WEBSITE-ZTM#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
